@@ -25,6 +25,9 @@ const authenticateToken = (req, res, next)=>{
 
 let routes = (app) => {
   router.get('/api/users',  db.getUsers);
+  router.get('/api/users/:id', db.getUser);
+  router.post('/api/users/add', db.addUser);
+  router.patch('/api/users/update/:id', db.updateUser);
 
   app.use(router);
 };

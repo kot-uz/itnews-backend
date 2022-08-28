@@ -1,0 +1,4 @@
+info: 28.08.2022 13:31:46 	IP:::1    username:undefined   method:GET   API:/api/users   func:getUsers
+info: 28.08.2022 14:07:07 	IP:::1    username:undefined   method:GET   API:/api/users   func:getUsers
+info: 28.08.2022 14:07:54 	IP:::1    username:undefined   method:GET   API:/api/users/:id   func:getUser
+info: 28.08.2022 14:24:46 	IP:::1    username:undefined   method:GET   API:/api/users   func:getUsers
