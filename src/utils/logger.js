@@ -25,7 +25,7 @@ const logFileTransport = new DailyRotateFile({
     level: config.get("logConfig.logLevel") || 'info',
 });
 
-module.exports = createLogger({
+const logger = createLogger({
     format:logFormat,
     transports:[
         logFileTransport,
@@ -35,3 +35,11 @@ module.exports = createLogger({
         })
     ]
 });
+
+function writeLog(req, res, method, path, func) {
+  const username = res.locals.username;
+  const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress || "unknown IP" ;
+  logger.info(`IP:${ip}    username:${username}   method:${method}   API:${path}   func:${func}`);
+} 
+
+module.exports = writeLog;
