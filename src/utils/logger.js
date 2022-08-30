@@ -37,9 +37,8 @@ const logger = createLogger({
 });
 
 function writeLog(req, res, method, path, func) {
-  const username = res.locals.username;
   const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress || "unknown IP" ;
-  logger.info(`IP:${ip}    username:${username}   method:${method}   API:${path}   func:${func}`);
+  logger.info(`IP:${ip}    userid:${res.locals.userid}   method:${method}   API:${path}   func:${func}`);
 } 
 
 module.exports = writeLog;

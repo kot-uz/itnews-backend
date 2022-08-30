@@ -13,8 +13,7 @@ const authenticateToken = (req, res, next)=>{
       return res.sendStatus(403);
     } 
     req.user = user;
-    //console.log("user = ", user);
-    res.locals.username = user.username;
+    res.locals.userid = user.id;
     next();
   })
 }

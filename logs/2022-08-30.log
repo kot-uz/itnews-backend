@@ -10,3 +10,13 @@ info: 30.08.2022 09:39:03 	IP:::1    username:Sherzod   method:GET   API:/api/us
 info: 30.08.2022 09:40:20 	IP:::1    username:undefined   method:GET   API:/api/users   func:getUsers
 info: 30.08.2022 09:41:06 	IP:::1    username:undefined   method:DELETE   API:/api/users/delete/:id   func:deleteUser
 info: 30.08.2022 09:41:23 	IP:::1    username:undefined   method:GET   API:/api/users   func:getUsers
+info: 30.08.2022 09:57:53 	IP:::1    username:undefined   method:GET   API:/api/users   func:getUsers
+info: 30.08.2022 09:58:54 	IP:::1    username:undefined   method:POST   API:/api/signup   func:signup
+info: 30.08.2022 09:59:00 	IP:::1    username:undefined   method:GET   API:/api/users   func:getUsers
+info: 30.08.2022 10:02:11 	IP:::1    username:undefined   method:GET   API:/api/users   func:getUsers
+info: 30.08.2022 10:09:06 	IP:::1    username:undefined   method:GET   API:/api/users   func:getUsers
+info: 30.08.2022 10:09:56 	IP:::1    username:undefined   method:GET   API:/api/users   func:getUsers
+info: 30.08.2022 10:11:18 	IP:::1    username:undefined   method:GET   API:/api/users/:id   func:getUser
+info: 30.08.2022 10:15:03 	IP:::1    userid:630d91e10bc029a2641fa3fe   method:GET   API:/api/users/:id   func:getUser
+info: 30.08.2022 10:16:28 	IP:::1    userid:630d91e10bc029a2641fa3fe   method:GET   API:/api/users/:id   func:getUser
+info: 30.08.2022 10:16:34 	IP:::1    userid:630d91e10bc029a2641fa3fe   method:GET   API:/api/users   func:getUsers
