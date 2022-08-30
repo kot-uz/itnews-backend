@@ -1,0 +1,12 @@
+info: 30.08.2022 09:10:02 	IP:::1    username:undefined   method:POST   API:/api/signin   func:signin
+info: 30.08.2022 09:25:06 	IP:::1    username:Sherzod   method:GET   API:/api/users   func:getUsers
+info: 30.08.2022 09:26:15 	IP:::1    username:undefined   method:POST   API:/api/signup   func:signup
+info: 30.08.2022 09:27:31 	IP:::1    username:undefined   method:POST   API:/api/signup   func:signup
+info: 30.08.2022 09:27:44 	IP:::1    username:undefined   method:POST   API:/api/signup   func:signup
+info: 30.08.2022 09:28:16 	IP:::1    username:undefined   method:POST   API:/api/signup   func:signup
+info: 30.08.2022 09:28:32 	IP:::1    username:Sherzod   method:GET   API:/api/users   func:getUsers
+info: 30.08.2022 09:33:08 	IP:::1    username:undefined   method:POST   API:/api/signin   func:signin
+info: 30.08.2022 09:39:03 	IP:::1    username:Sherzod   method:GET   API:/api/users   func:getUsers
+info: 30.08.2022 09:40:20 	IP:::1    username:undefined   method:GET   API:/api/users   func:getUsers
+info: 30.08.2022 09:41:06 	IP:::1    username:undefined   method:DELETE   API:/api/users/delete/:id   func:deleteUser
+info: 30.08.2022 09:41:23 	IP:::1    username:undefined   method:GET   API:/api/users   func:getUsers

@@ -60,7 +60,7 @@ const deleteUser = async (req, res) => {
   try {
     const id = req.params.id;
     const data = await Model.findByIdAndDelete(id)
-    res.send(`User with name '${data.name}' has been deleted..`)
+    res.send(`User with name '${data.username}' has been deleted..`)
   } catch (error) {
     res.status(400).json({ message: error.message })
   }
