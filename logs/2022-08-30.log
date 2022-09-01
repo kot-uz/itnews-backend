@@ -20,3 +20,4 @@ info: 30.08.2022 10:11:18 	IP:::1    username:undefined   method:GET   API:/api/
 info: 30.08.2022 10:15:03 	IP:::1    userid:630d91e10bc029a2641fa3fe   method:GET   API:/api/users/:id   func:getUser
 info: 30.08.2022 10:16:28 	IP:::1    userid:630d91e10bc029a2641fa3fe   method:GET   API:/api/users/:id   func:getUser
 info: 30.08.2022 10:16:34 	IP:::1    userid:630d91e10bc029a2641fa3fe   method:GET   API:/api/users   func:getUsers
+info: 30.08.2022 10:24:49 	IP:::1    userid:630d91e10bc029a2641fa3fe   method:GET   API:/api/users   func:getUsers

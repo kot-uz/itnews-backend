@@ -48,6 +48,7 @@ app.use(cors());
 
 require('./src/routes/auth.routes')(app);
 require('./src/routes/user.routes')(app);
+require('./src/routes/news.routes')(app);
 
 const port = config.get("port");
 const logLevel = config.get("logConfig.logLevel");
